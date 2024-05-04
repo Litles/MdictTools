@@ -1,35 +1,7 @@
-# Created by .ignore support plugin (hsz.mobi)
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**
-!**/src/test/**
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-
-### VS Code ###
-.vscode/
-
-
-logs/
+# 剔除仓库配置相关文件和文件夹
+.gitignore
+.git/
+# 自定义剔除文件列表
+*.sublime-workspace
+*.sublime-project
+_build/
